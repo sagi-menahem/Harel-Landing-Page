@@ -32,6 +32,18 @@
 
 ---
 
+## How This Was Built
+
+Built solo, **AI-first**: I orchestrate AI coding agents (Claude Code, Codex) through a documented methodology rather than writing every line by hand — the engineering discipline is the point, not the speed.
+
+- **`AGENTS.md` as the single source of truth** — a rules file in the repo defines the architecture, conventions, and hard constraints every agent must obey: RTL-correct masonry ordering (custom column-distribution algorithm, no library that breaks RTL), a comprehensive accessibility menu (grayscale, high contrast, reduced motion, screen reader support) that must keep working, and all content centralized in `src/data/content.ts` with no hardcoded copy.
+- **Guardrail scripts & audit pipelines** — automated checks run on every change (accessibility audits across every a11y mode, self-hosted-font and image-format checks, lazy-loading verification for heavy components), so quality is enforced by tooling, not vigilance.
+- **The engineer decides, the agent executes** — every component, content model, and architectural choice on this page was designed and reviewed by me. Agents accelerate implementation; they never own the design.
+
+The result: a polished production site delivered at team-level velocity — with the discipline the decisions below reflect.
+
+---
+
 ## ✨ Key Features
 
 This project was built with a focus on performance, accessibility, and visual impact.
@@ -80,18 +92,16 @@ The design reflects the artist's natural and organic style:
 
 ---
 
-## 👨‍💻 Developed By
-
-**Sagi Menahem**
-
-I am a final-year Computer Science student (B.Sc.) passionate about building polished, high-performance web experiences.
-
-[![GitHub](https://img.shields.io/badge/GitHub-sagiia-181717?style=flat-square&logo=github)](https://github.com/sagiia)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/sagi-menachem/)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:your-email@example.com)
-
----
-
 <div align="center">
   <small>© 2025 All Rights Reserved to Harel Shemesh (Content) & Sagi Menahem (Code).</small>
+</div>
+
+<div align="center">
+
+**Built by Sagi Menahem**
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sagi-menahem)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sagi-menahem/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0D2440?style=flat-square&logo=googlechrome&logoColor=white)](https://sagimenahem.tech)
+
 </div>
