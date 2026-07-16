@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
   <img src="public/logo.png" alt="Logo" width="150"/>
   <h1>Harel Shemesh - Artist Portfolio Website</h1>
   <h3>Commercial Project Showcase</h3>
@@ -34,13 +34,7 @@
 
 ## How This Was Built
 
-Built solo, **AI-first**: I orchestrate AI coding agents (Claude Code, Codex) through a documented methodology rather than writing every line by hand — the engineering discipline is the point, not the speed.
-
-- **`AGENTS.md` as the single source of truth** — a rules file in the repo defines the architecture, conventions, and hard constraints every agent must obey: RTL-correct masonry ordering (custom column-distribution algorithm, no library that breaks RTL), a comprehensive accessibility menu (grayscale, high contrast, reduced motion, screen reader support) that must keep working, and all content centralized in `src/data/content.ts` with no hardcoded copy.
-- **Guardrail scripts & audit pipelines** — automated checks run on every change (accessibility audits across every a11y mode, self-hosted-font and image-format checks, lazy-loading verification for heavy components), so quality is enforced by tooling, not vigilance.
-- **The engineer decides, the agent executes** — every component, content model, and architectural choice on this page was designed and reviewed by me. Agents accelerate implementation; they never own the design.
-
-The result: a polished production site delivered at team-level velocity — with the discipline the decisions below reflect.
+Built AI-first: I orchestrate AI coding agents (Claude Code, Codex) under guardrail scripts and audit pipelines that run on every change — but every component, content model, and architectural decision here was designed and reviewed by me. Agents accelerate implementation; they don't own the design.
 
 ---
 
