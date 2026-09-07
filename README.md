@@ -1,4 +1,4 @@
-![Harel Shemesh — artist portfolio and content platform](assets/brand/banner.svg)
+![Harel Shemesh — artist portfolio and content platform](assets/brand/banner.png)
 
 # Harel Shemesh
 
